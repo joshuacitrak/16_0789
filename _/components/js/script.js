@@ -1,25 +1,33 @@
 function startAd(){  
     
     var bgtl = new TimelineLite();
-        bgtl.to("#bradBackground1", .8, {opacity:0}, 9)
-            .from("#bradBackground2", .8, {opacity:0}, 9)
-            .to("#bradBackground2", .8, {opacity:0}, 12)
-            .from("#bradBackground3", .8, {opacity:0}, 12);
+        bgtl.from("#bradBackground2", .8, {opacity:0}, 10.6)
+            .to("#bradBackground2", .8, {opacity:0, scale:.7}, 13.8)
+            .from("#bradBackground3", .8, {scale:4, x:180, y:-40, opacity:0}, 13.8);
     
     var ctl = new TimelineLite();
         ctl.to("#bradBigCirc", 1, {scale:0, x:-110, y:-50, ease: Power4.easeOut});
     
 
-    var smctl = new TimelineMax();
-        //ctl.to("#bradSmCirc", 1, {scale:.8, repeat: -1, yoyo: true, repeatDelay:.4, ease: Power1.easeOut});
+    var smctl = new TimelineLite();
+        smctl.to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut})
+            .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1, {scale:1, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1.6, {rotationZ:121, transformOrigin:"67px 115px"}, "+=.6")
+            .to("#bradBackground2", 2, {x:-320, y:76})
+            .to("#bradSmCirc", .6, {opacity:0}, "-=.7");
     
- var ttl = new TimelineLite();
-        ttl.from("#t4", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 12)
-        .from("#t5", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 12);
+    var ttl = new TimelineLite();
+        ttl.from("#t4", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 14)
+        .from("#t5", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 14);
     
     var tbtl1 = new TimelineLite();
     tbtl1.from("#t1", .8, {scale:0, opacity:0, ease: Power3.easeOut})
-        .to("#t1", .4, {opacity:0, ease: Power3.easeOut}, 3)
+        .to("#t1", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease: Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease: Power4.easeOut}, 3)
         .to("#r3",.1, {scaleX:1.2, opacity:.1, ease: Power4.easeOut}, 3)
@@ -47,7 +55,7 @@ function startAd(){
     
     var tbtl2 = new TimelineLite();
     tbtl2.from("#t2", .8, {scale:0, opacity:0, ease: Power3.easeOut})
-        .to("#t2", .4, {opacity:0, ease: Power3.easeOut}, 3)
+        .to("#t2", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease: Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease: Power4.easeOut}, 3)
         .to("#r3",.1, {scaleX:1.2, opacity:.1, ease: Power4.easeOut}, 3)
@@ -75,7 +83,7 @@ function startAd(){
     
     var tbtl3 = new TimelineLite();
     tbtl3.from("#t3", .8, {scale:0, opacity:0, ease: Power3.easeOut})
-        .to("#t3", .4, {opacity:0, ease: Power3.easeOut}, 3)
+        .to("#t3", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease: Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease: Power4.easeOut}, 3)
         .to("#r3",.1, {scaleX:1.2, opacity:.1, ease: Power4.easeOut}, 3)
@@ -101,14 +109,21 @@ function startAd(){
         .to("#r5",.1, {scaleX:2.5, opacity:0, ease: Power4.easeOut}, 3.3)
         .to("#r6",.1, {scaleX:2.5, opacity:0, ease: Power4.easeOut}, 3.3);
     
+    var ctatl = new TimelineLite();
+    ctatl.from("#bradFooter", .4, {opacity:0,ease: Power3.easeOut})
+        .from("#bradFooterImageContainer", .8, {opacity:0,ease: Power3.easeOut}, "-=.4")
+        .from("#bradFooterCTA", .8, { opacity:0,ease: Power3.easeOut}, "-=.8");
+    
     tl.add(bgtl, 0);
     tl.add(ctl, 0);
     tl.add(smctl, .4);
     tl.add(tbtl1, .2);
-    tl.add(tbtl2, 3.4);
-    tl.add(tbtl3, 6.8);
+    tl.add(tbtl2, 3.6);
+    tl.add(tbtl3, 7);
     tl.add(ttl, .4);
-    //tl.totalDuration(15);
+    tl.add(ctatl, 14.8);
+    tl.seek(8);
+    tl.totalDuration(15);
 };
 
 function addListeners(){
