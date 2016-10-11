@@ -8,7 +8,6 @@ function startAd(){
     var ctl = new TimelineLite();
         ctl.to("#bradBigCirc", 1, {scale:0, x:-110, y:-50, ease: Power4.easeOut});
     
-
     var smctl = new TimelineLite();
         smctl.to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut})
             .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
