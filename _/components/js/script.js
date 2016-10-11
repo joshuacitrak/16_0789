@@ -122,7 +122,6 @@ function startAd(){
     tl.add(tbtl3, 7);
     tl.add(ttl, .4);
     tl.add(ctatl, 14.8);
-    tl.seek(8);
     tl.totalDuration(15);
 };
 
