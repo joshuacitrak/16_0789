@@ -95,11 +95,11 @@ body {
       top: 0px;
       background-image: url(../img/bg3.jpg); }
     #bradContainer #bradContent #bradBigCirc {
-      width: 347px;
-      height: 347px;
+      width: 450px;
+      height: 450px;
       position: absolute;
-      left: -23px;
-      top: -47px;
+      left: -73px;
+      top: -102px;
       background-image: url(../img/bigcirc.png); }
     #bradContainer #bradContent #bradSmCirc {
       width: 40px;
