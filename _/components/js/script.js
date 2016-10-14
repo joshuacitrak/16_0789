@@ -1,6 +1,6 @@
 function startAd(){  
     //tl.set("#t1", {scaleY:.2, scaleX:2}).set("#t2", {scaleY:.2, scaleX:2}).set("#t3", {scaleY:.2, scaleX:2});
-    var rough = new RoughEase({strength:3, points:20, template:Strong.easeInOut, taper:"out", clamp:true, randomize:false});
+    var rough = new RoughEase({strength:3, points:25, template:Strong.easeInOut, taper:"out", clamp:true, randomize:false});
     var bgtl = new TimelineLite();
         bgtl.from("#bradBackground2", .8, {opacity:0}, 10.6)
             .to("#bradBackground2", .8, {opacity:0, scale:.7}, 13.8)
@@ -26,7 +26,7 @@ function startAd(){
         .from("#t5", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 14);
     
     var tbtl1 = new TimelineLite();
-    tbtl1.from("#t1", .4, {opacity:0, ease: rough})
+    tbtl1.from("#t1", .6, {opacity:0, ease: rough})
         .to("#t1", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
@@ -34,7 +34,7 @@ function startAd(){
         .to("#r4",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r5",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r6",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
-        .to("#r1",.1, {opacity:.4, ease:Power4.easeOut}, 3.1)
+        .to("#r1",.1, {opacity:.6, ease:Power4.easeOut}, 3.1)
         .to("#r2",.1, {opacity:.5, ease:Power4.easeOut}, 3.1)
         .to("#r3",.1, {opacity:.7, ease:Power4.easeOut}, 3.1)
         .to("#r4",.1, {opacity:4, ease:Power4.easeOut}, 3.1)
@@ -55,7 +55,7 @@ function startAd(){
         .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
     
     var tbtl2 = new TimelineLite();
-    tbtl2.from("#t2", .4, {opacity:0, ease: rough})
+    tbtl2.from("#t2", .6, {opacity:0, ease: rough})
         .to("#t2", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
@@ -83,7 +83,7 @@ function startAd(){
         .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
     
     var tbtl3 = new TimelineLite();
-    tbtl3.from("#t3", .4, {opacity:0, ease: rough})
+    tbtl3.from("#t3", .6, {opacity:0, ease: rough})
         .to("#t3", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
