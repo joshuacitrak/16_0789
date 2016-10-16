@@ -108,13 +108,20 @@ body {
       left: 26px;
       top: 55px;
       background-image: url(../img/smcirc.png); }
-    #bradContainer #bradContent #t1 {
-      width: 174px;
-      height: 121px;
+    #bradContainer #bradContent #t1a {
+      width: 173px;
+      height: 109px;
       position: absolute;
       left: 78px;
       top: 58px;
-      background-image: url(../img/t1.png); }
+      background-image: url(../img/t1a.png); }
+    #bradContainer #bradContent #t1b {
+      width: 173px;
+      height: 103px;
+      position: absolute;
+      left: 77px;
+      top: 75px;
+      background-image: url(../img/t1b.png); }
     #bradContainer #bradContent #t2 {
       width: 180px;
       height: 128px;
