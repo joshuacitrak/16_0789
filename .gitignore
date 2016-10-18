@@ -1,2 +1,6 @@
 .sass-cache/*
 node_modules/*
+160x600/node_modules/*
+160x600/.sass-cache/*
+728x90/node_modules/*
+728x90/.sass-cache/*
