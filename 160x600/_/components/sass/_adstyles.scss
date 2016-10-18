@@ -40,7 +40,7 @@
               width: 541px;
               height: 600px;
               position: absolute;
-              left: -10px;
+              left: -30px;
               top: -100px;
               background-image: url(../img/bg2.jpg);
           }#bradBackground3 {
@@ -54,82 +54,82 @@
               width: 601px;
               height: 601px;
               position: absolute;
-              left: -300px;
-              top: -300px;
-              background-image: url(../img/bigcirc.png);
+              left: -220px;
+              top: 0px;
+              //background-image: url(../img/bigcirc.png);
           }#bradSmCirc {
               width: 33px;
               height: 33px;
               position: absolute;
-              left: 26px;
-              top: 55px;
+              left: 12px;
+              top: 88px;
               background-image: url(../img/smcirc.png);
           }
           #t1a{
-              width: 173px;
-              height: 109px;
+              width: 100px;
+              height: 63px;
               position: absolute;
-              left: 78px;
-              top: 58px;
-              background-image: url(../img/t1a.png);
+              left: 40px;
+              top: 94px;
+              background-image: url(../img/t3a.png);
           }
           #t1b{
-              width: 173px;
-              height: 103px;
+              width: 100px;
+              height: 60px;
               position: absolute;
-              left: 77px;
-              top: 75px;
-              background-image: url(../img/t1b.png);
+              left: 40px;
+top: 104px;
+              background-image: url(../img/t3b.png);
           }
           #t2a{
-              width: 173px;
-              height: 109px;
+              width: 78px;
+              height: 89px;
               position: absolute;
-              left: 78px;
-              top: 58px;
+              left: 40px;
+              top: 198px;
               background-image: url(../img/t2a.png);
           }
           #t2b{
-              width: 173px;
-              height: 103px;
+              width: 78px;
+              height: 89px;
               position: absolute;
-              left: 77px;
-              top: 75px;
+              left: 41px;
+top: 209px;
               background-image: url(../img/t2b.png);
           }
           #t3a{
-              width: 173px;
-              height: 109px;
+              width: 100px;
+              height: 63px;
               position: absolute;
-              left: 78px;
-              top: 58px;
-              background-image: url(../img/t3a.png);
+              left: 40px;
+              top: 320px;
+              background-image: url(../img/t1a.png);
           }
           #t3b{
-              width: 173px;
-              height: 103px;
+              width: 99px;
+              height: 64px;
               position: absolute;
-              left: 77px;
-              top: 75px;
-              background-image: url(../img/t3b.png);
+              left: 41px;
+              top: 330px;
+              background-image: url(../img/t1b.png);
           }
           #t4{
               width: 118px;
               height: 62px;
               position: absolute;
-              left:15px;
-              top: 17px;
+              left:20px;
+              top: 24px;
               background-image: url(../img/t4.png);
           }
           #t5{
               width: 110px;
               height: 30px;
               position: absolute;
-              left: 15px;
-              top: 181px;
+              left: 20px;
+              top: 140px;
               background-image: url(../img/t5.png);
           }
-          #r1, #r2, #r3, #r4, #r5, #r6{
+          #r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9{
               -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
               /* This works in IE 8 & 9 too */
               /* ... but also 5, 6, 7 */
@@ -138,73 +138,82 @@
               /* Modern Browsers */
 
               opacity: 0;
-              width:33px;
+              position: absolute;
+              width:35px;
               height: 35px;
           }
+          #r1, #r2, #r3{
+              top:88px;
+          }
+          #r4, #r5, #r6{
+              top:111px;
+          }
+          #r7, #r8, #r9{
+              top:144px;
+          }
+          #r1, #r4, #r7{
+              left:40px;
+          }
+          #r2, #r5, #r8{
+              left:73px;
+          }
+          #r3, #r6, #r9{
+              left:106px;
+          }
           #r1{
-              
-              position: absolute;
-              left: 76px;
-              top: 58px;
               background-image: url(../img/r1.png);
           }
           #r2{
-              position: absolute;
-              left: 136px;
-              top: 58px;
               background-image: url(../img/r2.png);
           }
           #r3{
-              position: absolute;
-              left: 195px;
-              top: 58px;
               background-image: url(../img/r3.png);
           }
           #r4{
-              position: absolute;
-              left: 76px;
-              top: 120px;
               background-image: url(../img/r4.png);
           }
           #r5{
-              position: absolute;
-              left: 136px;
-              top: 120px;
               background-image: url(../img/r5.png);
           }
           #r6{
-              position: absolute;
-              left: 195px;
-              top: 120px;
               background-image: url(../img/r6.png);
+          }
+          #r7{
+              background-image: url(../img/r1.png);
+          }
+          #r8{
+              background-image: url(../img/r4.png);
+          }
+          #r9{
+              background-image: url(../img/r1.png);
           }
           #bradFooter {
               background: #fff;
-              width: 300px;
-              height: 47px;
+              width: 160px;
+              height: 94px;
               position: absolute;
-              top: 203px;
+              top: 506px;
               #bradFooterImageContainer {
                   background-image: url(../img/logo.png);
                   position: absolute;
-                  top: 14px;
-                  left: 205px;
-                  width: 102px;
+                  top: 34px;
+                  left: 28px;
+                  width: 101px;
                   height: 27px;
               }
               #bradFooterCTA {
                   background: #fa7700;
                   position: absolute;
-                  top: 14px;
-                  left: 15px;
-                  width: 80px;
-                  height: 20px;
+                  top: -48px;
+                  left: 20px;
+                  width: 120px;
+                  height: 27px;
                   
                   #bradFooterCTAT {
                       background-image: url(../img/ctat.png);
                       position: absolute;
                       top: 6px;
-                      left: 6px;
+                      left: 12px;
                       width: 96px;
                       height: 14px;
                   }
