@@ -70,8 +70,14 @@ function startAd(){
         .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
     
     var tbtl2 = new TimelineLite();
-    tbtl2.from("#t2", .6, {opacity:0, ease: rough})
-        .to("#t2", .2, {opacity:0, ease: Power3.easeOut}, 3)
+    tbtl2.from("#t2a", .2, {opacity:0, x:80, ease: rough})
+        .from("#t2b", .2, {opacity:0, x:-80, ease: rough}, 0)
+        .to("#t2a", .2, { x:-60, scale:1.1, ease: SlowMo.ease.config(.3, 1, false)}, .8)
+        .to("#t2b", .2, { x:60, scale:1.1, ease: SlowMo.ease.config(.3, 1, false)}, .8)
+        .to("#t2a", .1, { x:0, scale:1, ease: rough})
+        .to("#t2b", .1, { x:0, scale:1, ease: rough}, 1)
+        .to("#t2a", .2, {opacity:0, ease: Power3.easeOut}, 3)
+        .to("#t2b", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r3",.1, {scaleX:1.2, opacity:.1, ease:Power4.easeOut}, 3)
@@ -98,8 +104,14 @@ function startAd(){
         .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
     
     var tbtl3 = new TimelineLite();
-    tbtl3.from("#t3", .6, {opacity:0, ease: rough})
-        .to("#t3", .2, {opacity:0, ease: Power3.easeOut}, 3)
+    tbtl3.from("#t3a", .2, {opacity:0, x:80, ease: rough})
+        .from("#t3b", .2, {opacity:0, x:-80, ease: rough}, 0)
+        .to("#t3a", .2, { x:-60, scale:1.1, ease: SlowMo.ease.config(.3, 1, false)}, .8)
+        .to("#t3b", .2, { x:60, scale:1.1, ease: SlowMo.ease.config(.3, 1, false)}, .8)
+        .to("#t3a", .1, { x:0, scale:1, ease: rough})
+        .to("#t3b", .1, { x:0, scale:1, ease: rough}, 1)
+        .to("#t3a", .2, {opacity:0, ease: Power3.easeOut}, 3)
+        .to("#t3b", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r3",.1, {scaleX:1.2, opacity:.1, ease:Power4.easeOut}, 3)

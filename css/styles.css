@@ -122,20 +122,34 @@ body {
       left: 77px;
       top: 75px;
       background-image: url(../img/t1b.png); }
-    #bradContainer #bradContent #t2 {
+    #bradContainer #bradContent #t2a {
       width: 180px;
-      height: 128px;
+      height: 110px;
       position: absolute;
       left: 78px;
       top: 58px;
-      background-image: url(../img/t2.png); }
-    #bradContainer #bradContent #t3 {
+      background-image: url(../img/t2a.png); }
+    #bradContainer #bradContent #t2b {
+      width: 179px;
+      height: 108px;
+      position: absolute;
+      left: 79px;
+      top: 77px;
+      background-image: url(../img/t2b.png); }
+    #bradContainer #bradContent #t3a {
       width: 172px;
-      height: 128px;
+      height: 108px;
       position: absolute;
       left: 78px;
       top: 58px;
-      background-image: url(../img/t3.png); }
+      background-image: url(../img/t3a.png); }
+    #bradContainer #bradContent #t3b {
+      width: 170px;
+      height: 109px;
+      position: absolute;
+      left: 80px;
+      top: 76px;
+      background-image: url(../img/t3b.png); }
     #bradContainer #bradContent #t4 {
       width: 201px;
       height: 95px;

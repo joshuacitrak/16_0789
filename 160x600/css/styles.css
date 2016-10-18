@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+#bradContainer {
+  font-family: sans-serif;
+  position: relative;
+  width: 298px;
+  height: 248px;
+  border: 1px solid #00a651;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  background: #15a54a;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=0);
+  /* Modern Browsers */
+  opacity: 0; }
+  #bradContainer #bradContent {
+    cursor: pointer;
+    width: 100%;
+    height: 100%; }
+    #bradContainer #bradContent #bradBackground1 {
+      width: 300px;
+      height: 250px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-image: url(../img/bg.png); }
+    #bradContainer #bradContent #bradBackground2 {
+      width: 700px;
+      height: 439px;
+      position: absolute;
+      left: -10px;
+      top: -100px;
+      background-image: url(../img/bg2.jpg); }
+    #bradContainer #bradContent #bradBackground3 {
+      width: 300px;
+      height: 250px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-image: url(../img/bg3.jpg); }
+    #bradContainer #bradContent #bradBigCirc {
+      width: 450px;
+      height: 450px;
+      position: absolute;
+      left: -73px;
+      top: -102px;
+      background-image: url(../img/bigcirc.png); }
+    #bradContainer #bradContent #bradSmCirc {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 26px;
+      top: 55px;
+      background-image: url(../img/smcirc.png); }
+    #bradContainer #bradContent #t1a {
+      width: 173px;
+      height: 109px;
+      position: absolute;
+      left: 78px;
+      top: 58px;
+      background-image: url(../img/t1a.png); }
+    #bradContainer #bradContent #t1b {
+      width: 173px;
+      height: 103px;
+      position: absolute;
+      left: 77px;
+      top: 75px;
+      background-image: url(../img/t1b.png); }
+    #bradContainer #bradContent #t2 {
+      width: 180px;
+      height: 128px;
+      position: absolute;
+      left: 78px;
+      top: 58px;
+      background-image: url(../img/t2.png); }
+    #bradContainer #bradContent #t3 {
+      width: 172px;
+      height: 128px;
+      position: absolute;
+      left: 78px;
+      top: 58px;
+      background-image: url(../img/t3.png); }
+    #bradContainer #bradContent #t4 {
+      width: 201px;
+      height: 95px;
+      position: absolute;
+      left: 15px;
+      top: 17px;
+      background-image: url(../img/t4.png); }
+    #bradContainer #bradContent #t5 {
+      width: 220px;
+      height: 12px;
+      position: absolute;
+      left: 15px;
+      top: 181px;
+      background-image: url(../img/t5.png); }
+    #bradContainer #bradContent #r1, #bradContainer #bradContent #r2, #bradContainer #bradContent #r3, #bradContainer #bradContent #r4, #bradContainer #bradContent #r5, #bradContainer #bradContent #r6 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      /* This works in IE 8 & 9 too */
+      /* ... but also 5, 6, 7 */
+      filter: alpha(opacity=0);
+      /* Modern Browsers */
+      opacity: 0;
+      width: 61px;
+      height: 64px; }
+    #bradContainer #bradContent #r1 {
+      position: absolute;
+      left: 76px;
+      top: 58px;
+      background-image: url(../img/r1.png); }
+    #bradContainer #bradContent #r2 {
+      position: absolute;
+      left: 136px;
+      top: 58px;
+      background-image: url(../img/r2.png); }
+    #bradContainer #bradContent #r3 {
+      position: absolute;
+      left: 195px;
+      top: 58px;
+      background-image: url(../img/r3.png); }
+    #bradContainer #bradContent #r4 {
+      position: absolute;
+      left: 76px;
+      top: 120px;
+      background-image: url(../img/r4.png); }
+    #bradContainer #bradContent #r5 {
+      position: absolute;
+      left: 136px;
+      top: 120px;
+      background-image: url(../img/r5.png); }
+    #bradContainer #bradContent #r6 {
+      position: absolute;
+      left: 195px;
+      top: 120px;
+      background-image: url(../img/r6.png); }
+    #bradContainer #bradContent #bradFooter {
+      background: #fff;
+      width: 300px;
+      height: 47px;
+      position: absolute;
+      top: 203px; }
+      #bradContainer #bradContent #bradFooter #bradFooterImageContainer {
+        background-image: url(../img/logo.png);
+        position: absolute;
+        top: 14px;
+        left: 205px;
+        width: 80px;
+        height: 20px; }
+      #bradContainer #bradContent #bradFooter #bradFooterCTA {
+        background: #fa7700;
+        position: absolute;
+        top: 14px;
+        left: 15px;
+        width: 80px;
+        height: 20px; }
+        #bradContainer #bradContent #bradFooter #bradFooterCTA #bradFooterCTAT {
+          background-image: url(../img/ctat.png);
+          position: absolute;
+          top: 6px;
+          left: 6px;
+          width: 65px;
+          height: 9px; }
+
+button {
+  padding: 10px;
+  margin-top: 10px; }
+
+button:nth-child(1) {
+  margin-left: 10px; }
+
+#slider {
+  width: 300px;
+  margin: 10px;
+  background-color: #ff0; }
