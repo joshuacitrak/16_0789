@@ -1,0 +1,280 @@
+  body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+  }
+  
+  #bradContainer {
+      font-family: sans-serif;
+      position: relative;
+      width: 726px;
+      height: 88px;
+      border: 1px solid #00a651;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      background: #15a54a;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+      /* This works in IE 8 & 9 too */
+      /* ... but also 5, 6, 7 */
+      
+      filter: alpha(opacity=0); // IE 5-7
+      /* Modern Browsers */
+      
+      opacity: 0;
+      #bradContent {
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+          #bradGrnBackground {
+              width: 728px;
+              height: 90px;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              //background-color: #00a651;
+          }
+          #bradBackground1 {
+              width: 728px;
+              height: 90px;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              background-image: url(../img/bg.png);
+          }#bradBackground2 {
+              width: 970px;
+              height: 150px;
+              position: absolute;
+              left: px;
+              top: 0px;
+              background-image: url(../img/bg2.jpg);
+          }#bradBackground3 {
+              width: 728px;
+              height: 90px;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              background-image: url(../img/bg3.jpg);
+          }#bradBigCirc {
+              width: 730px;
+              height: 730px;
+              position: absolute;
+              left: -365px;
+              top: -365px;
+              //background-image: url(../img/bigcirc.png);
+          }#bradSmCirc {
+              width: 40px;
+              height: 40px;
+              position: absolute;
+              left: 44px;
+              top: 28px;
+              background-image: url(../img/smcirc.png);
+          }
+          #t1a{
+              width: 444px;
+              height: 18px;
+              position: absolute;
+              left: 98px;
+              top: 28px;
+              background-image: url(../img/t1a.png);
+          }
+          #t1b{
+              width: 444px;
+              height: 14px;
+              position: absolute;
+              left: 98px;
+top: 45px;
+              background-image: url(../img/t1b.png);
+          }
+          #t2a{
+              width: 432px;
+              height: 18px;
+              position: absolute;
+              left: 98px;
+              top: 28px;
+              background-image: url(../img/t2a.png);
+          }
+          #t2b{
+              width: 428px;
+              height: 21px;
+              position: absolute;
+              left:102px;
+                top: 44.5px;
+              background-image: url(../img/t2b.png);
+          }
+          #t3a{
+              width: 376px;
+              height: 18px;
+              position: absolute;
+              left: 98px;
+              top: 28px;
+              background-image: url(../img/t3a.png);
+          }
+          #t3b{
+              width: 368px;
+              height: 20px;
+              position: absolute;
+              left: 106px;
+              top: 46px;
+              background-image: url(../img/t3b.png);
+          }
+          #t4{
+              width: 255px;
+              height: 72px;
+              position: absolute;
+              left:13px;
+              top: 10px;
+              background-image: url(../img/t4.png);
+          }
+          #t5{
+              width: 110px;
+              height: 30px;
+              position: absolute;
+              left: 271px;
+              top: 50px;
+              background-image: url(../img/t5.png);
+          }
+          #r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9, #r10, #r11, #r12, #r13, #r14, #r15, #r16, #r17, #r18, #r19, #r20, #r21, #r22, #r23, #r24, #r25, #r26, #r27, #r28, #r29, #r30, #r31, #r32, #r33, #r34, #r35, #r36{
+              -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+              /* This works in IE 8 & 9 too */
+              /* ... but also 5, 6, 7 */
+
+              filter: alpha(opacity=0); // IE 5-7
+              /* Modern Browsers */
+
+              opacity: 0;
+              position: absolute;
+              width:27px;
+              height: 27px;
+          }
+          #r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8,, #r9, #r10, #r11, #r12, #r13, #r14, #r15, #r16, #r17, #r18{
+              top:19px;
+          }
+          #r19, #r20, #r21, #r22, #r23, #r24, #r25, #r26, #r27, #r28, #r29, #r30, #r31, #r32, #r33, #r34, #r35, #r36{
+              top:45px;
+          }
+          #r1, #r19{
+              left:97px;
+          }
+          #r2, #r20{
+              left:122px;
+          }
+          #r3, #r21{
+              left:147px;
+          }
+          #r4, #r22{
+              left:172px;
+          }
+          #r5, #r23{
+              left:197px;
+          }
+          #r6, #r24{
+              left:222px;
+          }
+          #r7, #r25{
+              left:247px;
+          }
+          #r8, #r26{
+              left:272px;
+          }
+          #r9, #r27{
+              left:297px;
+          }
+          #r10, #r28{
+              left:322px;
+          }
+          #r11, #r29{
+              left:347px;
+          }
+          #r12, #r30{
+              left:372px;
+          }
+          #r13, #r31{
+              left:397px;
+          }
+          #r14, #r32{
+              left:422px;
+          }
+          #r15, #r33{
+              left:447px;
+          }
+          #r16, #r34{
+              left:472px;
+          }
+          #r17, #r35{
+              left:497px;
+          }
+          #r18, #r36{
+              left:522px;
+          }
+          #r1, #r7, #r13, #r19, #r25, #r31{
+              background-image: url(../img/r1.png);
+          }
+          #r2, #r8, #r15, #r22, #r26, #r32{
+              background-image: url(../img/r2.png);
+          }
+          #r3, #r12, #r14, #r21, #r27, #r33{
+              background-image: url(../img/r3.png);
+          }
+          #r4, #r11, #r17, #r20, #r28, #r34{
+              background-image: url(../img/r4.png);
+          }
+          #r6, #r10, #r16, #r23, #r29, #r35{
+              background-image: url(../img/r5.png);
+          }
+          #r5, #r9, #r18, #r24, #r30, #r36{
+              background-image: url(../img/r6.png);
+          }
+          #bradFooter {
+              background: #fff;
+              width: 140px;
+              height: 90px;
+              position: absolute;
+              top: 0px;
+              left:588px;
+              #bradFooterImageContainer {
+                  background-image: url(../img/logo.png);
+                  position: absolute;
+                  top: 34px;
+                  left: 20px;
+                  width: 93px;
+                  height: 23px;
+              }
+              #bradFooterCTA {
+                  background: #fa7700;
+                  position: absolute;
+                  top: 34px;
+                  left: -122px;
+                  width: 98px;
+                  height: 24px;
+                  
+                  #bradFooterCTAT {
+                      background-image: url(../img/ctat.png);
+                      position: absolute;
+                      top: 6px;
+                      left: 10px;
+                      width: 77px;
+                      height: 11px;
+                  }
+              }
+          }
+      }
+  }
+ button {
+      padding: 10px;
+      margin-top: 10px;
+  }
+  
+  button:nth-child(1) {
+      margin-left: 10px;
+  }
+  
+  #slider {
+      width: 300px;
+      margin: 10px;
+      background-color: #ff0;
+  }
+ 
