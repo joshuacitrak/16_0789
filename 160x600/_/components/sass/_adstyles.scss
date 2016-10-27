@@ -37,11 +37,11 @@
               top: 0px;
               background-image: url(../img/bg.png);
           }#bradBackground2 {
-              width: 541px;
+              width: 694px;
               height: 600px;
               position: absolute;
-              left: -30px;
-              top: -100px;
+              left: -109px;
+              top:0;
               background-image: url(../img/bg2.jpg);
           }#bradBackground3 {
               width: 160px;
@@ -50,13 +50,20 @@
               left: 0px;
               top: 0px;
               background-image: url(../img/bg3.jpg);
+          }#bradBackground4 {
+              width: 160px;
+              height: 600px;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              background-color:#00a651;
           }#bradBigCirc {
               width: 601px;
               height: 601px;
               position: absolute;
-              left: -220px;
-              top: 0px;
-              //background-image: url(../img/bigcirc.png);
+              left: -165px;
+top: -147px;
+              background-image: url(../img/bigcirc.png);
           }#bradSmCirc {
               width: 33px;
               height: 33px;
@@ -65,53 +72,29 @@
               top: 88px;
               background-image: url(../img/smcirc.png);
           }
-          #t1a{
+          #t1{
               width: 100px;
-              height: 63px;
+              height: 71px;
               position: absolute;
               left: 40px;
               top: 94px;
-              background-image: url(../img/t3a.png);
+              background-image: url(../img/t1.png);
           }
-          #t1b{
+          #t2{
+              width: 79px;
+              height: 101px;
+              position: absolute;
+              left: 40px;
+                top: 198px;
+              background-image: url(../img/t2.png);
+          }
+          #t3{
               width: 100px;
-              height: 60px;
+              height: 75px;
               position: absolute;
               left: 40px;
-top: 104px;
-              background-image: url(../img/t3b.png);
-          }
-          #t2a{
-              width: 78px;
-              height: 89px;
-              position: absolute;
-              left: 40px;
-              top: 198px;
-              background-image: url(../img/t2a.png);
-          }
-          #t2b{
-              width: 78px;
-              height: 89px;
-              position: absolute;
-              left: 41px;
-top: 209px;
-              background-image: url(../img/t2b.png);
-          }
-          #t3a{
-              width: 100px;
-              height: 63px;
-              position: absolute;
-              left: 40px;
-              top: 320px;
-              background-image: url(../img/t1a.png);
-          }
-          #t3b{
-              width: 99px;
-              height: 64px;
-              position: absolute;
-              left: 41px;
-              top: 330px;
-              background-image: url(../img/t1b.png);
+              top: 328px;
+              background-image: url(../img/t3.png);
           }
           #t4{
               width: 118px;
@@ -146,7 +129,7 @@ top: 209px;
               top:88px;
           }
           #r4, #r5, #r6{
-              top:111px;
+              top:121px;
           }
           #r7, #r8, #r9{
               top:144px;

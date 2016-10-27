@@ -81,11 +81,11 @@ body {
       top: 0px;
       background-image: url(../img/bg.png); }
     #bradContainer #bradContent #bradBackground2 {
-      width: 541px;
+      width: 694px;
       height: 600px;
       position: absolute;
-      left: -30px;
-      top: -100px;
+      left: -109px;
+      top: 0;
       background-image: url(../img/bg2.jpg); }
     #bradContainer #bradContent #bradBackground3 {
       width: 160px;
@@ -94,12 +94,20 @@ body {
       left: 0px;
       top: 0px;
       background-image: url(../img/bg3.jpg); }
+    #bradContainer #bradContent #bradBackground4 {
+      width: 160px;
+      height: 600px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: #00a651; }
     #bradContainer #bradContent #bradBigCirc {
       width: 601px;
       height: 601px;
       position: absolute;
-      left: -220px;
-      top: 0px; }
+      left: -165px;
+      top: -147px;
+      background-image: url(../img/bigcirc.png); }
     #bradContainer #bradContent #bradSmCirc {
       width: 33px;
       height: 33px;
@@ -107,48 +115,27 @@ body {
       left: 12px;
       top: 88px;
       background-image: url(../img/smcirc.png); }
-    #bradContainer #bradContent #t1a {
+    #bradContainer #bradContent #t1 {
       width: 100px;
-      height: 63px;
+      height: 71px;
       position: absolute;
       left: 40px;
       top: 94px;
-      background-image: url(../img/t3a.png); }
-    #bradContainer #bradContent #t1b {
-      width: 100px;
-      height: 60px;
-      position: absolute;
-      left: 40px;
-      top: 104px;
-      background-image: url(../img/t3b.png); }
-    #bradContainer #bradContent #t2a {
-      width: 78px;
-      height: 89px;
+      background-image: url(../img/t1.png); }
+    #bradContainer #bradContent #t2 {
+      width: 79px;
+      height: 101px;
       position: absolute;
       left: 40px;
       top: 198px;
-      background-image: url(../img/t2a.png); }
-    #bradContainer #bradContent #t2b {
-      width: 78px;
-      height: 89px;
-      position: absolute;
-      left: 41px;
-      top: 209px;
-      background-image: url(../img/t2b.png); }
-    #bradContainer #bradContent #t3a {
+      background-image: url(../img/t2.png); }
+    #bradContainer #bradContent #t3 {
       width: 100px;
-      height: 63px;
+      height: 75px;
       position: absolute;
       left: 40px;
-      top: 320px;
-      background-image: url(../img/t1a.png); }
-    #bradContainer #bradContent #t3b {
-      width: 99px;
-      height: 64px;
-      position: absolute;
-      left: 41px;
-      top: 330px;
-      background-image: url(../img/t1b.png); }
+      top: 328px;
+      background-image: url(../img/t3.png); }
     #bradContainer #bradContent #t4 {
       width: 118px;
       height: 62px;
@@ -176,7 +163,7 @@ body {
     #bradContainer #bradContent #r1, #bradContainer #bradContent #r2, #bradContainer #bradContent #r3 {
       top: 88px; }
     #bradContainer #bradContent #r4, #bradContainer #bradContent #r5, #bradContainer #bradContent #r6 {
-      top: 111px; }
+      top: 121px; }
     #bradContainer #bradContent #r7, #bradContainer #bradContent #r8, #bradContainer #bradContent #r9 {
       top: 144px; }
     #bradContainer #bradContent #r1, #bradContainer #bradContent #r4, #bradContainer #bradContent #r7 {

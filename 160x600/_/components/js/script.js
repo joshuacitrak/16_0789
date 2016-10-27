@@ -1,6 +1,4 @@
 function startAd(){  
-    //tl.set("#t1", {scaleY:.2, scaleX:2}).set("#t2", {scaleY:.2, scaleX:2}).set("#t3", {scaleY:.2, scaleX:2});
-    /**var rough = new RoughEase({strength:3, points:25, template:Strong.easeInOut, taper:"out", clamp:true, randomize:false});
     var bgtl = new TimelineLite();
         bgtl.from("#bradBackground2", .8, {opacity:0}, 10.6)
             .to("#bradBackground2", .8, {opacity:0, scale:.7}, 13.8)
@@ -11,29 +9,26 @@ function startAd(){
     
     var smctl = new TimelineLite();
         smctl.to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut})
+            .to("#bradBackground4", .005,{opacity:0}, 0)
             .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
             .to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", .4, {y:103, ease: Power4.easeOut}, "-=.4")
             .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
             .to("#bradSmCirc", 1, {scale:.8, ease: Power1.easeOut}, "+=.4")
+            .to("#bradSmCirc", .4, {y:232, ease: Power4.easeOut})
             .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
             .to("#bradSmCirc", 1, {scale:1, ease: Power1.easeOut}, "+=.4")
-            .to("#bradSmCirc", 1.6, {rotationZ:121, transformOrigin:"67px 115px"}, "+=.8")
-            .to("#bradBackground2", 2, {x:-320, y:76})
-            .to("#bradSmCirc", .6, {opacity:0}, "-=.7");
+            .to("#bradSmCirc", 1.4, {rotationZ:58.5, transformOrigin:"-100px 218px", ease: Power1.easeOut}, "+=.8")
+            .to("#bradBackground2", 2, {x:-395, y:92})
+            .to("#bradSmCirc", .4, {opacity:0}, "-=.8");
     
     var ttl = new TimelineLite();
-        ttl.from("#t4", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 14)
-        .from("#t5", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 14);
-    
+        ttl.from("#t4", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 13.6)
+        .from("#t5", .8, {scale:0, opacity:0, ease: Power3.easeOut}, 13.6);
+        
     var tbtl1 = new TimelineLite();
-    tbtl1.from("#t1a", .2, {opacity:0, x:80, ease: rough})
-        .from("#t1b", .2, {opacity:0, x:-80, ease: rough}, 0)
-        .to("#t1a", .2, { x:-60, scale:1.1, ease: SlowMo.ease.config(.3, 1, false)}, .8)
-        .to("#t1b", .2, { x:60, scale:1.1, ease: SlowMo.ease.config(.3, 1, false)}, .8)
-        .to("#t1a", .1, { x:0, scale:1, ease: rough})
-        .to("#t1b", .1, { x:0, scale:1, ease: rough}, 1)
-        .to("#t1a", .2, {opacity:0, ease: Power3.easeOut}, 3)
-        .to("#t1b", .2, {opacity:0, ease: Power3.easeOut}, 3)
+    tbtl1.from("#t1", .6, {opacity:0, ease: Power3.easeOut})
+        .to("#t1", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r3",.1, {scaleX:1.2, opacity:.1, ease:Power4.easeOut}, 3)
@@ -50,7 +45,6 @@ function startAd(){
         .to("#r2",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r3",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r4",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-    
         .to("#r5",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r6",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r1",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
@@ -61,7 +55,16 @@ function startAd(){
         .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
     
     var tbtl2 = new TimelineLite();
-    tbtl2.from("#t2", .6, {opacity:0, ease: rough})
+    tbtl2.from("#t2", .6, {opacity:0, ease: Power3.easeOut})
+        .to("#r1",.1, {y:107, ease:Power4.easeOut}, 0)
+        .to("#r2",.1, {y:107, ease:Power4.easeOut}, 0)
+        .to("#r3",.1, {y:107, ease:Power4.easeOut}, 0)
+        .to("#r4",.1, {y:107, ease:Power4.easeOut}, 0)
+        .to("#r5",.1, {y:107, ease:Power4.easeOut}, 0)
+        .to("#r6",.1, {y:107, ease:Power4.easeOut}, 0)
+        .to("#r7",.1, {y:119, ease:Power4.easeOut}, 0)
+        .to("#r8",.1, {y:119, ease:Power4.easeOut}, 0)
+        .to("#r9",.1, {y:119, ease:Power4.easeOut}, 0)
         .to("#t2", .2, {opacity:0, ease: Power3.easeOut}, 3)
         .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
@@ -69,52 +72,77 @@ function startAd(){
         .to("#r4",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r5",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r6",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
-        .to("#r1",.1, {opacity:.8, ease:Power4.easeOut}, 3.1)
-        .to("#r2",.1, {opacity:.6, ease:Power4.easeOut}, 3.1)
-        .to("#r3",.1, {opacity:.9, ease:Power4.easeOut}, 3.1)
-        .to("#r4",.1, {opacity:6, ease:Power4.easeOut}, 3.1)
-        .to("#r5",.1, {opacity:.8, ease:Power4.easeOut}, 3.1)
-        .to("#r6",.1, {opacity:.5, ease:Power4.easeOut}, 3.1)
-        .to("#r1",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-        .to("#r2",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-        .to("#r3",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-        .to("#r4",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-        .to("#r5",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-        .to("#r6",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
-        .to("#r1",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
-        .to("#r2",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
-        .to("#r3",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
-        .to("#r4",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
-        .to("#r5",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
-        .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
-    
-    var tbtl3 = new TimelineLite();
-    tbtl3.from("#t3", .6, {opacity:0, ease: rough})
-        .to("#t3", .2, {opacity:0, ease: Power3.easeOut}, 3)
-        .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
-        .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
-        .to("#r3",.1, {scaleX:1.2, opacity:.1, ease:Power4.easeOut}, 3)
-        .to("#r4",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
-        .to("#r5",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
-        .to("#r6",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r7",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r8",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r9",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
         .to("#r1",.1, {opacity:.7, ease:Power4.easeOut}, 3.1)
         .to("#r2",.1, {opacity:.9, ease:Power4.easeOut}, 3.1)
         .to("#r3",.1, {opacity:.8, ease:Power4.easeOut}, 3.1)
         .to("#r4",.1, {opacity:8, ease:Power4.easeOut}, 3.1)
         .to("#r5",.1, {opacity:.6, ease:Power4.easeOut}, 3.1)
         .to("#r6",.1, {opacity:.7, ease:Power4.easeOut}, 3.1)
+        .to("#r7",.1, {opacity:.6, ease:Power4.easeOut}, 3.1)
+        .to("#r8",.1, {opacity:8, ease:Power4.easeOut}, 3.1)
+        .to("#r9",.1, {opacity:9, ease:Power4.easeOut}, 3.1)
         .to("#r1",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r2",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r3",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r4",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r5",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r6",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r7",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r8",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r9",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
         .to("#r1",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
         .to("#r2",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
         .to("#r3",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
         .to("#r4",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
         .to("#r5",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
-        .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
+        .to("#r6",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r7",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r8",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r9",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
+    
+    var tbtl3 = new TimelineLite();
+    tbtl3.from("#t3", .6, {opacity:0, ease: Power3.easeOut})
+        .to("#r1",.1, {y:240, ease:Power4.easeOut}, 0)
+        .to("#r2",.1, {y:240, ease:Power4.easeOut}, 0)
+        .to("#r3",.1, {y:240, ease:Power4.easeOut}, 0)
+        .to("#r4",.1, {y:242, ease:Power4.easeOut}, 0)
+        .to("#r5",.1, {y:242, ease:Power4.easeOut}, 0)
+        .to("#r6",.1, {y:242, ease:Power4.easeOut}, 0)
+        .to("#r7",.1, {y:242, ease:Power4.easeOut}, 0)
+        .to("#r8",.1, {y:242, ease:Power4.easeOut}, 0)
+        .to("#r9",.1, {y:242, ease:Power4.easeOut}, 0)
+        .to("#t3", .2, {opacity:0, ease: Power3.easeOut}, 3)
+        .to("#r1",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r2",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r4",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r5",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r7",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r8",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r9",.1, {scaleX:1.2, opacity:1, ease:Power4.easeOut}, 3)
+        .to("#r1",.1, {opacity:.7, ease:Power4.easeOut}, 3.1)
+        .to("#r2",.1, {opacity:.9, ease:Power4.easeOut}, 3.1)
+        .to("#r4",.1, {opacity:8, ease:Power4.easeOut}, 3.1)
+        .to("#r5",.1, {opacity:.6, ease:Power4.easeOut}, 3.1)
+        .to("#r7",.1, {opacity:.6, ease:Power4.easeOut}, 3.1)
+        .to("#r8",.1, {opacity:8, ease:Power4.easeOut}, 3.1)
+        .to("#r9",.1, {opacity:9, ease:Power4.easeOut}, 3.1)
+        .to("#r1",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r2",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r4",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r5",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r7",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r8",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r9",.1, {opacity:1, ease:Power4.easeOut}, 3.2)
+        .to("#r1",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r2",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r4",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r5",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r7",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r8",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3)
+        .to("#r9",.1, {scaleX:2.5, opacity:0, ease:Power4.easeOut}, 3.3);
     
     var ctatl = new TimelineLite();
     ctatl.from("#bradFooter", .4, {opacity:0,ease: Power3.easeOut})
@@ -128,8 +156,10 @@ function startAd(){
     tl.add(tbtl2, 3.8);
     tl.add(tbtl3, 7.2);
     tl.add(ttl, .4);
-    tl.add(ctatl, 14.8);
-    tl.totalDuration(15);**/
+    tl.add(ctatl, 14);
+    tl.totalDuration(15);
+    
+    tl.seek(9);
 };
 
 function addListeners(){
