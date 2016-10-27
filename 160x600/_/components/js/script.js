@@ -2,7 +2,7 @@ function startAd(){
     var bgtl = new TimelineLite();
         bgtl.from("#bradBackground2", .8, {opacity:0}, 10.6)
             .to("#bradBackground2", .8, {opacity:0, scale:.7}, 13.8)
-            .from("#bradBackground3", .8, {scale:4, x:180, y:-40, opacity:0}, 13.8);
+            .from("#bradBackground3", .8, {scale:4, x:180, y:60, opacity:0}, 13.8);
     
     var ctl = new TimelineLite();
         ctl.to("#bradBigCirc", 1, {scale:0, x:-110, y:-50, ease: Power4.easeOut});
@@ -18,7 +18,8 @@ function startAd(){
             .to("#bradSmCirc", .4, {y:232, ease: Power4.easeOut})
             .to("#bradSmCirc", 1, {scale:1.2, ease: Power1.easeOut}, "+=.4")
             .to("#bradSmCirc", 1, {scale:1, ease: Power1.easeOut}, "+=.4")
-            .to("#bradSmCirc", 1.4, {rotationZ:58.5, transformOrigin:"-100px 218px", ease: Power1.easeOut}, "+=.8")
+            .to("#bradSmCirc", .6, {y:260, ease: Power4.easeOut}, "+=.4")
+            .to("#bradSmCirc", 1.4, {rotationZ:25.5, scale:1.2, transformOrigin:"-320px 120px", ease: Power1.easeOut})
             .to("#bradBackground2", 2, {x:-395, y:92})
             .to("#bradSmCirc", .4, {opacity:0}, "-=.8");
     
