@@ -159,8 +159,6 @@ function startAd(){
     tl.add(ttl, .4);
     tl.add(ctatl, 14);
     tl.totalDuration(15);
-    
-    tl.seek(9);
 };
 
 function addListeners(){
