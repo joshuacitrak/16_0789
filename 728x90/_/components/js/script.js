@@ -474,7 +474,6 @@ function startAd(){
     tl.add(ttl, .4);
     tl.add(ctatl, 14.4);
     tl.totalDuration(15);
-    tl.seek(10);
 };
 
 function addListeners(){
