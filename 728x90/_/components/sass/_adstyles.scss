@@ -48,8 +48,8 @@
               width: 970px;
               height: 150px;
               position: absolute;
-              left: px;
-              top: 0px;
+              left: 0px;
+              top: -60px;
               background-image: url(../img/bg2.jpg);
           }#bradBackground3 {
               width: 728px;
@@ -59,67 +59,43 @@
               top: 0px;
               background-image: url(../img/bg3.jpg);
           }#bradBigCirc {
-              width: 730px;
-              height: 730px;
+              width: 760px;
+              height: 760px;
               position: absolute;
-              left: -365px;
-              top: -365px;
-              //background-image: url(../img/bigcirc.png);
+              left: -20px;
+top: -340px;
+              background-image: url(../img/bigcirc.png);
           }#bradSmCirc {
               width: 40px;
               height: 40px;
               position: absolute;
               left: 44px;
-              top: 28px;
+              top: 24px;
               background-image: url(../img/smcirc.png);
           }
-          #t1a{
+          #t1{
               width: 444px;
-              height: 18px;
+              height: 31px;
               position: absolute;
               left: 98px;
               top: 28px;
-              background-image: url(../img/t1a.png);
+              background-image: url(../img/t1.png);
           }
-          #t1b{
-              width: 444px;
-              height: 14px;
-              position: absolute;
-              left: 98px;
-top: 45px;
-              background-image: url(../img/t1b.png);
-          }
-          #t2a{
+          #t2{
               width: 432px;
-              height: 18px;
+              height: 38px;
               position: absolute;
               left: 98px;
-              top: 28px;
-              background-image: url(../img/t2a.png);
+top: 28px;
+              background-image: url(../img/t2.png);
           }
-          #t2b{
-              width: 428px;
-              height: 21px;
-              position: absolute;
-              left:102px;
-                top: 44.5px;
-              background-image: url(../img/t2b.png);
-          }
-          #t3a{
+          #t3{
               width: 376px;
-              height: 18px;
+              height: 38px;
               position: absolute;
               left: 98px;
               top: 28px;
-              background-image: url(../img/t3a.png);
-          }
-          #t3b{
-              width: 368px;
-              height: 20px;
-              position: absolute;
-              left: 106px;
-              top: 46px;
-              background-image: url(../img/t3b.png);
+              background-image: url(../img/t3.png);
           }
           #t4{
               width: 255px;
