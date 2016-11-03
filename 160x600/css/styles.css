@@ -150,7 +150,7 @@ body {
       left: 20px;
       top: 140px;
       background-image: url(../img/t5.png); }
-    #bradContainer #bradContent #r1, #bradContainer #bradContent #r2, #bradContainer #bradContent #r3, #bradContainer #bradContent #r4, #bradContainer #bradContent #r5, #bradContainer #bradContent #r6, #bradContainer #bradContent #r7, #bradContainer #bradContent #r8, #bradContainer #bradContent #r9 {
+    #bradContainer #bradContent #r1_1, #bradContainer #bradContent #r1_2, #bradContainer #bradContent #r1_3, #bradContainer #bradContent #r2_1, #bradContainer #bradContent #r2_2, #bradContainer #bradContent #r2_3, #bradContainer #bradContent #r3_1, #bradContainer #bradContent #r3_2, #bradContainer #bradContent #r3_3, #bradContainer #bradContent #r1_4, #bradContainer #bradContent #r2_4, #bradContainer #bradContent #r3_4, #bradContainer #bradContent #r1_5, #bradContainer #bradContent #r2_5, #bradContainer #bradContent #r3_5, #bradContainer #bradContent #r1_6, #bradContainer #bradContent #r2_6, #bradContainer #bradContent #r3_6, #bradContainer #bradContent #r1_7, #bradContainer #bradContent #r2_7, #bradContainer #bradContent #r3_7, #bradContainer #bradContent #r1_8, #bradContainer #bradContent #r2_8, #bradContainer #bradContent #r3_8, #bradContainer #bradContent #r1_9, #bradContainer #bradContent #r2_9, #bradContainer #bradContent #r3_9 {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
       /* This works in IE 8 & 9 too */
       /* ... but also 5, 6, 7 */
@@ -160,35 +160,47 @@ body {
       position: absolute;
       width: 35px;
       height: 35px; }
-    #bradContainer #bradContent #r1, #bradContainer #bradContent #r2, #bradContainer #bradContent #r3 {
+    #bradContainer #bradContent #r1_1, #bradContainer #bradContent #r1_2, #bradContainer #bradContent #r1_3 {
       top: 88px; }
-    #bradContainer #bradContent #r4, #bradContainer #bradContent #r5, #bradContainer #bradContent #r6 {
+    #bradContainer #bradContent #r1_4, #bradContainer #bradContent #r1_5, #bradContainer #bradContent #r1_6 {
       top: 121px; }
-    #bradContainer #bradContent #r7, #bradContainer #bradContent #r8, #bradContainer #bradContent #r9 {
+    #bradContainer #bradContent #r1_7, #bradContainer #bradContent #r1_8, #bradContainer #bradContent #r1_9 {
       top: 144px; }
-    #bradContainer #bradContent #r1, #bradContainer #bradContent #r4, #bradContainer #bradContent #r7 {
+    #bradContainer #bradContent #r2_1, #bradContainer #bradContent #r2_2, #bradContainer #bradContent #r2_3 {
+      top: 195px; }
+    #bradContainer #bradContent #r2_4, #bradContainer #bradContent #r2_5, #bradContainer #bradContent #r2_6 {
+      top: 228px; }
+    #bradContainer #bradContent #r2_7, #bradContainer #bradContent #r2_8, #bradContainer #bradContent #r2_9 {
+      top: 251px; }
+    #bradContainer #bradContent #r3_1, #bradContainer #bradContent #r3_2, #bradContainer #bradContent #r3_3 {
+      top: 320px; }
+    #bradContainer #bradContent #r3_4, #bradContainer #bradContent #r3_5, #bradContainer #bradContent #r3_6 {
+      top: 350px; }
+    #bradContainer #bradContent #r3_7, #bradContainer #bradContent #r3_8, #bradContainer #bradContent #r3_9 {
+      top: 380px; }
+    #bradContainer #bradContent #r1_1, #bradContainer #bradContent #r1_4, #bradContainer #bradContent #r1_7, #bradContainer #bradContent #r2_1, #bradContainer #bradContent #r2_4, #bradContainer #bradContent #r2_7, #bradContainer #bradContent #r3_1, #bradContainer #bradContent #r3_4, #bradContainer #bradContent #r3_7 {
       left: 40px; }
-    #bradContainer #bradContent #r2, #bradContainer #bradContent #r5, #bradContainer #bradContent #r8 {
+    #bradContainer #bradContent #r1_2, #bradContainer #bradContent #r1_5, #bradContainer #bradContent #r1_8, #bradContainer #bradContent #r2_2, #bradContainer #bradContent #r2_5, #bradContainer #bradContent #r2_8, #bradContainer #bradContent #r3_2, #bradContainer #bradContent #r3_5, #bradContainer #bradContent #r3_8 {
       left: 73px; }
-    #bradContainer #bradContent #r3, #bradContainer #bradContent #r6, #bradContainer #bradContent #r9 {
+    #bradContainer #bradContent #r1_3, #bradContainer #bradContent #r1_6, #bradContainer #bradContent #r1_9, #bradContainer #bradContent #r2_3, #bradContainer #bradContent #r2_6, #bradContainer #bradContent #r2_9, #bradContainer #bradContent #r3_3, #bradContainer #bradContent #r3_6, #bradContainer #bradContent #r3_9 {
       left: 106px; }
-    #bradContainer #bradContent #r1 {
+    #bradContainer #bradContent #r1_1, #bradContainer #bradContent #r1_2, #bradContainer #bradContent #r1_3 {
       background-image: url(../img/r1.png); }
-    #bradContainer #bradContent #r2 {
+    #bradContainer #bradContent #r2_1, #bradContainer #bradContent #r2_2, #bradContainer #bradContent #r2_3 {
       background-image: url(../img/r2.png); }
-    #bradContainer #bradContent #r3 {
+    #bradContainer #bradContent #r3_1, #bradContainer #bradContent #r3_2, #bradContainer #bradContent #r3_3 {
       background-image: url(../img/r3.png); }
-    #bradContainer #bradContent #r4 {
+    #bradContainer #bradContent #r1_4, #bradContainer #bradContent #r2_4, #bradContainer #bradContent #r3_4 {
       background-image: url(../img/r4.png); }
-    #bradContainer #bradContent #r5 {
+    #bradContainer #bradContent #r1_5, #bradContainer #bradContent #r2_5, #bradContainer #bradContent #r3_5 {
       background-image: url(../img/r5.png); }
-    #bradContainer #bradContent #r6 {
+    #bradContainer #bradContent #r1_6, #bradContainer #bradContent #r2_6, #bradContainer #bradContent #r3_6 {
       background-image: url(../img/r6.png); }
-    #bradContainer #bradContent #r7 {
+    #bradContainer #bradContent #r1_7, #bradContainer #bradContent #r2_7, #bradContainer #bradContent #r3_7 {
       background-image: url(../img/r1.png); }
-    #bradContainer #bradContent #r8 {
+    #bradContainer #bradContent #r1_8, #bradContainer #bradContent #r2_8, #bradContainer #bradContent #r3_8 {
       background-image: url(../img/r4.png); }
-    #bradContainer #bradContent #r9 {
+    #bradContainer #bradContent #r1_9, #bradContainer #bradContent #r2_9, #bradContainer #bradContent #r3_9 {
       background-image: url(../img/r1.png); }
     #bradContainer #bradContent #bradFooter {
       background: #fff;

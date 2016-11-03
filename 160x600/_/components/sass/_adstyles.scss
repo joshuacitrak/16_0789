@@ -112,7 +112,7 @@ top: -147px;
               top: 140px;
               background-image: url(../img/t5.png);
           }
-          #r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9{
+          #r1_1, #r1_2, #r1_3, #r2_1, #r2_2, #r2_3, #r3_1, #r3_2, #r3_3, #r1_4, #r2_4, #r3_4, #r1_5, #r2_5, #r3_5, #r1_6, #r2_6, #r3_6, #r1_7, #r2_7, #r3_7, #r1_8, #r2_8, #r3_8, #r1_9, #r2_9, #r3_9 {
               -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
               /* This works in IE 8 & 9 too */
               /* ... but also 5, 6, 7 */
@@ -125,49 +125,67 @@ top: -147px;
               width:35px;
               height: 35px;
           }
-          #r1, #r2, #r3{
+          #r1_1, #r1_2, #r1_3{
               top:88px;
           }
-          #r4, #r5, #r6{
+          #r1_4, #r1_5, #r1_6{
               top:121px;
           }
-          #r7, #r8, #r9{
+          #r1_7, #r1_8, #r1_9{
               top:144px;
           }
-          #r1, #r4, #r7{
+          #r2_1, #r2_2, #r2_3{
+              top:195px;
+          }
+          #r2_4, #r2_5, #r2_6{
+              top:228px;
+          }
+          #r2_7, #r2_8, #r2_9{
+              top:251px;
+          }
+          #r3_1, #r3_2, #r3_3{
+              top:320px;
+          }
+          #r3_4, #r3_5, #r3_6{
+              top:350px;
+          }
+          #r3_7, #r3_8, #r3_9{
+              top:380px;
+          }
+          #r1_1, #r1_4, #r1_7, #r2_1, #r2_4, #r2_7, #r3_1, #r3_4, #r3_7{
               left:40px;
           }
-          #r2, #r5, #r8{
+          #r1_2, #r1_5, #r1_8,#r2_2, #r2_5, #r2_8,#r3_2, #r3_5, #r3_8{
               left:73px;
           }
-          #r3, #r6, #r9{
+          #r1_3, #r1_6, #r1_9, #r2_3, #r2_6, #r2_9, #r3_3, #r3_6, #r3_9{
               left:106px;
           }
-          #r1{
+          #r1_1, #r1_2, #r1_3{
               background-image: url(../img/r1.png);
           }
-          #r2{
+          #r2_1, #r2_2, #r2_3{
               background-image: url(../img/r2.png);
           }
-          #r3{
+          #r3_1, #r3_2, #r3_3{
               background-image: url(../img/r3.png);
           }
-          #r4{
+          #r1_4, #r2_4, #r3_4{
               background-image: url(../img/r4.png);
           }
-          #r5{
+          #r1_5, #r2_5, #r3_5{
               background-image: url(../img/r5.png);
           }
-          #r6{
+          #r1_6, #r2_6, #r3_6{
               background-image: url(../img/r6.png);
           }
-          #r7{
+          #r1_7, #r2_7, #r3_7{
               background-image: url(../img/r1.png);
           }
-          #r8{
+          #r1_8, #r2_8, #r3_8{
               background-image: url(../img/r4.png);
           }
-          #r9{
+          #r1_9, #r2_9, #r3_9{
               background-image: url(../img/r1.png);
           }
           #bradFooter {
